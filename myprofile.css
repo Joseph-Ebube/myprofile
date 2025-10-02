@@ -438,6 +438,10 @@ body {
   .cta {
     
     margin-top: 1rem;
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
+  
   }
 
   /* SKILLS SECTION */
@@ -474,10 +478,18 @@ body {
   .btn {
     margin-left: 0;
     text-align: center;
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
+  
   }
    #contact-submit {
     width: auto;          /* Prevent full width */
     align-self: center;   /* Center the button */
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
+  
   }
 }
 
@@ -495,11 +507,16 @@ body {
 
   .tag {
     font-size: 1.1rem;
+
   }
 
   .cta {
     font-size: 0.95rem;
     padding: 0.6rem 1.2rem;
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
+  
   }
 
   .skills-content h2,
@@ -524,7 +541,11 @@ body {
   .btn {
     font-size: 0.95rem;
     padding: 0.5rem 1rem;
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
   }
+  
   
 }
 
@@ -547,6 +568,10 @@ body {
   .cta {
     font-size: 0.85rem;
     padding: 0.5rem 1rem;
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
+  
   }
 
   .skills-content h2,
@@ -571,5 +596,10 @@ body {
   #contact-submit {
     width: auto;          /* Prevent full width */
     align-self: center;   /* Center the button */
+  
+    display: block;       /* Make button a block */
+    margin: 1rem auto;    /* Auto margin centers it */
+    text-align: center;   /* Center the text inside */
   }
+  
 }

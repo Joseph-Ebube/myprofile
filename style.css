@@ -1,0 +1,89 @@
+
+
+
+  /* Skills Section */
+.skills-section {
+  background-color: #0F1117; /* Same dark theme */
+  padding: 4rem 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05); /* Subtle top border */
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap on small screens */
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto; /* Center horizontally */
+}
+.skills-content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.skills-content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #00C9A7;
+}
+.skills-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 201, 167, 0.2); /* Soft glow */
+}
+
+.skill {
+  margin-bottom: 2rem;
+}
+
+.skill label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.bar {
+  background-color: #1F2937;
+  height: 14px;
+  border-radius: 7px;
+  overflow: hidden;
+  position: relative;
+}
+
+.fill {
+  background: linear-gradient(90deg, #00C9A7, #007BFF);
+  height: 100%;
+  border-radius: 7px;
+  font-size: 0.85rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-align: right;
+  padding-right: 8px;
+  line-height: 14px;
+  width: 0; /* Start at 0 */
+  transition: width 2s ease;
+}
+/* Tech icon styling */
+.tech-icons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tech-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  filter: drop-shadow(0 0 2px #00C9A7); /* Neon glow effect */
+}
+
+.tech-icons img:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+}
